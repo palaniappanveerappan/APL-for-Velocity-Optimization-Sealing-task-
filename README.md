@@ -6,6 +6,7 @@ Experimental Setup-Flange for the Franka Emika Panda Robot and the arduino code 
 APL algorithm from:   (XXXX)
 
 Instructions:
+
 -APL task execution: Use APL algorithm to generate execution velocity values. Use this value in the file curve_execution(forAPL).py to execute in robot. Then the user judges the output by comparison and with the help of the APL Algorithm should enter a new value of velocity to curve_execution(forAPL).py file. In this loop,  for each radius curve, velocity can be optimized.
 (the already created APL data is in the file curv_vel_data(APL).py).
 
